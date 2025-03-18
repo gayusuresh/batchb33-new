@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex
+        {
+            background-color: blue;
+            width:500px;
+            height:500px;
+            display: flex;
+            /*flex-direction: row-reverse;/*default*/
+            justify-content: center;/*left to right flex-start,flex-end center*/
+            align-content:flex-start;/*top to bottom*/
+            flex-wrap: wrap;/* its align the content different line*/
+            /*flex-wrap: nowrap;/*its align the content same line as well as default*/
+            
+        }
+        /*div:nth-child(6)
+        {
+           align-self: flex-start;
+            /*flex-basis: 50px;
+        }*/
+        #box1
+        {
+            background-color: rgb(64, 226, 43);
+            width:100px;
+            height:100px;
+            margin:10px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div id="box1">1</div>
+        <div id="box1">2</div>
+        <div id="box1">3</div>
+        <div id="box1">4</div>
+        <div id="box1">5</div>
+        <div id="box1">6</div>
+        <div id="box1">7</div>
+        <div id="box1">8</div>
+        <div id="box1">9</div>
+        <div id="box1">10</div>
+        <div id="box1">11</div>
+        <div id="box1">12</div>
+        <div id="box1">13</div>
+        <div id="box1">+</div>
+        <div id="box1">-</div>
+        <div id="box1">*</div>
+
+
+    </div>
+</body>
+</html>

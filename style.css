@@ -1,0 +1,37 @@
+/* element selector*/
+div{
+    width:500px;
+    height:400px;
+    background-color: rgb(43, 217, 226);
+}
+/*element selectors*/
+p{
+    color:black;
+    font-size:20px;
+
+}
+/*class selectors*/
+
+.one
+{
+    background-color: #95e52a;
+}
+/*id selectors*/
+
+#two
+{
+    background-color:rgb(86, 86, 27 );
+
+}
+/*element selectors*/
+
+.three
+{
+    background-color: #e52ac3;
+
+}
+
+/* group selector */
+h1,p{
+   border:20px solid black; 
+}
